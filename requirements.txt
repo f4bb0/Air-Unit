@@ -1,0 +1,9 @@
+pyserial==3.5
+paho-mqtt==1.6.1
+PyGObject==3.46.0
+opencv-python==4.8.1.78
+numpy==1.24.3
+dataclasses-json==0.6.1
+pydantic==2.5.0
+loguru==0.7.2
+loguru==0.7.2
