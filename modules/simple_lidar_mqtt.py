@@ -25,7 +25,7 @@ def publish_data(client):
         'lidar_data': ax_lidar_data.copy()  # 发送完整的360度数据
     }
     
-    client.publish(TOPIC, json.dumps(data))
+    client.publish(TOPIC, json.dumps(data, separators=(',', ':')))
     print(f"发送完整雷达数据 - 时间戳: {data['timestamp']}")
 
 def read_lidar_thread(ser):
