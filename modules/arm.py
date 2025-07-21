@@ -31,7 +31,8 @@ def parse_hex_data(hex_values):
             "e": arm_values[2],
             "t": arm_values[3],
             "r": arm_values[4],
-            "h": arm_values[5],
+            "h": 180,
+            # "h": arm_values[5],
             "spd": 10,
             "acc": 10
         }

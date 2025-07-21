@@ -15,7 +15,7 @@ ax_lidar_data = [0] * 360
 def init_serial():
     try:
         ser = serial.Serial(
-            port='/dev/ttyS1',  # 根据实际情况修改串口号
+            port='/dev/ttyUSB0',  # 根据实际情况修改串口号
             baudrate=230400,
             bytesize=serial.EIGHTBITS,
             parity=serial.PARITY_NONE,
